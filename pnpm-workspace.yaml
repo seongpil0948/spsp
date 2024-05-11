@@ -1,0 +1,5 @@
+# https://pnpm.io/npmrc#link-workspace-packages
+packages:
+  - packages/*
+  - apps/*
+prefer-workspace-packages: true
