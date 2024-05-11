@@ -1,7 +1,7 @@
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
-import { Button } from '@tuskdesign/buttons';
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import { Button } from "@spsp/buttons";
 
 function App() {
   return (

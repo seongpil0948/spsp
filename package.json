@@ -2,7 +2,11 @@
   "name": "@spsp/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "lint": "pnpm -F \"./packages/**\" -F \"./apps/**\" --parallel --stream -r run lint",
+    "build": "pnpm -F \"./packages/**\" -F \"./apps/**\" --parallel --stream -r run build",
+    "preview": "pnpm -F \"./packages/**\" -F \"./apps/**\" --parallel --stream -r run preview"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
